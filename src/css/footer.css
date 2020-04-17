@@ -1,0 +1,117 @@
+/* Icons */
+
+ul.icons {
+    cursor: default;
+    list-style: none;
+    padding-left: 0;
+}
+
+    ul.icons li {
+        display: inline-block;
+        padding: 0 .75em; 
+        font-size: 1.5em;
+    }
+
+        ul.icons li:last-child {
+            padding-right: 0 !important;
+        }
+
+        ul.icons li .icon {
+            -moz-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+            -webkit-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+            -ms-transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+            transition: color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+            border-radius: 100%;
+            border: solid 1px #4c4b4d;
+            color: inherit;
+            display: inline-block;
+            height: 20px;
+            line-height: 20px;
+            text-align: center;
+            width: 20px;
+        }
+
+            ul.icons li .icon:before {
+                font-size: 2em;
+            }
+
+            ul.icons li .icon:hover {
+                background: rgba(207, 201, 214, 0.035);
+                color: inherit !important;
+            }
+
+            ul.icons li .icon:active {
+                background: rgba(207, 201, 214, 0.1);
+            }
+
+/* Footer */
+
+.footer{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-content: center;
+    place-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.footer .icons {
+    margin: 0;
+    padding: 0 0 0 0;
+    position: relative;
+
+}
+
+
+@media (max-width: 980px) {
+    #footer {
+        padding: 5em 3em 3em 3em ;
+    }
+
+    #footer h2 + p br {
+        display: none;
+        }
+
+    #footer .icons {
+            left: -3em;
+            top: 3em;
+            
+        }
+}
+
+    /**@media screen (max-width: 736px) {
+        ul.icons li {
+            padding: 0 0.25em 0 0;
+        }
+
+            ul.icons li .icon {
+                height: 2.5em;
+                line-height: 2.5em;
+                width: 2.5em;
+            }
+
+                ul.icons li .icon:before {
+                    font-size: 1em;
+                }
+        #footer {
+				padding: 3em 3em 1em 3em ;
+			}
+
+				#footer h2 {
+					font-size: 1.25em;
+				}
+
+					#footer h2 + p {
+						margin: 0 0 2em 0;
+					}
+
+				#footer .icons {
+					left: -3em;
+					top: 1em;
+					width: calc(100% + 6em);
+				}
+
+
+
+    }**/

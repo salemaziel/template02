@@ -1,0 +1,15 @@
+stackbitVersion: ~0.2.0
+ssgName: gatsby (custom?)
+ssgVersion: 0.1.12
+buildCommand: npm start
+publishDir: _site
+staticDir: ''
+uploadDir: src/assets/images
+dataDir: src/data
+pagesDir: ''
+pageLayoutKey: layout
+metadata:
+  title: Snipcart
+  description: An e-commerce theme powered by Snipcart
+  author: Snipcart
+  authorURL: 'https://snipcart.com'

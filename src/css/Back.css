@@ -1,0 +1,15 @@
+div.productBack {
+    display: flex;
+    color:white;
+    justify-content: start;
+    align-items: flex-start;
+}
+
+div.shopBack {
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    margin: 2rem 0;
+}

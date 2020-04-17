@@ -1,0 +1,82 @@
+
+img.photo {
+    width: 10rem;
+    height: 10rem;
+    justify-self: center;
+    border-radius: 50%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 1rem 0;
+}
+
+div.userphoto {
+    display: inline-block;
+    justify-content: center;
+    margin: 1rem 0 2rem;
+    color: #ffffff;
+    font-size: .8em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+
+}
+
+h2.userphoto  {
+    font-size: 1.8em;
+    color: #1cadd1;
+    letter-spacing: 2px;
+}
+
+h1.profileName {
+    font-size: 4em;
+    font-variant: small-caps;
+    font-stretch: extra-expanded;
+    letter-spacing: 2px;
+}
+h1.profileName:hover{
+    text-emphasis: none;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none!important;
+}
+
+@media screen and (min-width: 2400px) {
+
+
+}
+
+
+@media screen and (max-width: 1680px) {
+  
+}
+
+
+@media screen and (max-width: 1280px) {
+    .cardBg {
+        max-width: 100%;
+    }
+}
+
+
+
+@media screen and (max-width: 980px) {
+    
+}
+
+
+@media (max-width: 736px) {
+    
+}
+
+
+@media (max-width: 480px) {
+   div.userphoto {
+       margin: 0;
+   }
+
+}
+
+
+@media (max-width: 360px) {
+    
+}
